@@ -170,6 +170,12 @@
                                     <action selector="buttonReturn:" destination="kdT-1B-GGK" eventType="touchUpInside" id="nIN-eL-Rp9"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="RH3-rZ-uIf">
+                                <rect key="frame" x="145" y="298" width="105" height="31"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="filled" title="Button"/>
+                            </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="WRj-VD-x3H"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
@@ -177,7 +183,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="8mI-om-VeP" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="857" y="68"/>
+            <point key="canvasLocation" x="856.79999999999995" y="67.916041979010501"/>
         </scene>
         <!--Register View Controller-->
         <scene sceneID="dbu-IQ-o4p">
