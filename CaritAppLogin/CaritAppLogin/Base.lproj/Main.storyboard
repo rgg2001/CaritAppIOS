@@ -157,7 +157,7 @@
                         <outlet property="indicatorLogin" destination="ggg-4T-K2w" id="QOl-ST-4uM"/>
                         <outlet property="tfPassword" destination="YWm-KT-Ld7" id="tNP-MD-0hr"/>
                         <outlet property="tfUsuario" destination="Pll-zV-zah" id="oCs-mD-hVa"/>
-                        <segue destination="ZzA-3v-98E" kind="presentation" identifier="loginSegue" id="0dt-Bk-sFa"/>
+                        <segue destination="ZzA-3v-98E" kind="presentation" identifier="loginSegue" modalPresentationStyle="fullScreen" id="0dt-Bk-sFa"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
@@ -169,11 +169,11 @@
             <objects>
                 <viewController id="kdT-1B-GGK" customClass="ProjectsViewController" customModule="CaritAppLogin" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Zpt-zA-S65">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="Ej9-XU-qiR">
-                                <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                 <collectionViewFlowLayout key="collectionViewLayout" automaticEstimatedItemSize="YES" minimumLineSpacing="10" minimumInteritemSpacing="10" id="Oct-bW-cwu">
                                     <size key="itemSize" width="414" height="436"/>
@@ -399,7 +399,7 @@
             <objects>
                 <viewController id="Y46-Sf-U8w" customClass="ProfileViewController" customModule="CaritAppLogin" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="9Oz-i7-hQE">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Asi-u9-Mr5">
@@ -429,7 +429,7 @@
             <objects>
                 <viewController id="eyF-cB-VWg" customClass="MyProjectsViewController" customModule="CaritAppLogin" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="I8H-qU-6dJ">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <viewLayoutGuide key="safeArea" id="dSm-v5-3dH"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -445,7 +445,7 @@
             <objects>
                 <viewController id="u1G-Hq-caN" customClass="FavoritesViewController" customModule="CaritAppLogin" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="7oG-Sy-Xdq">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <viewLayoutGuide key="safeArea" id="9LX-bW-ePb"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
@@ -488,7 +488,7 @@
                     </tabBarItem>
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" largeTitles="YES" id="OSq-aa-ujw">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="108"/>
+                        <rect key="frame" x="0.0" y="44" width="414" height="96"/>
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>
                     <nil name="viewControllers"/>
@@ -507,7 +507,7 @@
                     <tabBarItem key="tabBarItem" title="Proyectos" image="map" catalog="system" id="dqO-5F-44s"/>
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" largeTitles="YES" id="hJh-rE-akA">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="108"/>
+                        <rect key="frame" x="0.0" y="44" width="414" height="96"/>
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>
                     <nil name="viewControllers"/>
@@ -526,7 +526,7 @@
                     <tabBarItem key="tabBarItem" title="Favoritos" image="heart" catalog="system" id="QPI-NR-gyB"/>
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" largeTitles="YES" id="Sw7-Op-XLP">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="108"/>
+                        <rect key="frame" x="0.0" y="44" width="414" height="96"/>
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>
                     <nil name="viewControllers"/>
@@ -545,7 +545,7 @@
                     <tabBarItem key="tabBarItem" title="Perfil" image="person.circle" catalog="system" id="6tD-jw-mao"/>
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" largeTitles="YES" id="zfI-Aw-hih">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="108"/>
+                        <rect key="frame" x="0.0" y="44" width="414" height="96"/>
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>
                     <nil name="viewControllers"/>
