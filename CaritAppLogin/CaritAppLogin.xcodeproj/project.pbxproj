@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F796EE2A28C99C8B0034CE58 /* MyProjectsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F796EE2928C99C8B0034CE58 /* MyProjectsViewController.swift */; };
+		F796EE2C28C99CD30034CE58 /* ProjectsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F796EE2B28C99CD30034CE58 /* ProjectsViewController.swift */; };
+		F796EE2E28C99D0A0034CE58 /* FavoritesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F796EE2D28C99D0A0034CE58 /* FavoritesViewController.swift */; };
+		F796EE3028C99D1E0034CE58 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F796EE2F28C99D1E0034CE58 /* ProfileViewController.swift */; };
 		FB63056028C7929E00FBAA1B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB63055F28C7929E00FBAA1B /* AppDelegate.swift */; };
 		FB63056228C7929E00FBAA1B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB63056128C7929E00FBAA1B /* SceneDelegate.swift */; };
 		FB63056428C7929E00FBAA1B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB63056328C7929E00FBAA1B /* ViewController.swift */; };
@@ -20,6 +24,10 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		F796EE2928C99C8B0034CE58 /* MyProjectsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyProjectsViewController.swift; sourceTree = "<group>"; };
+		F796EE2B28C99CD30034CE58 /* ProjectsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProjectsViewController.swift; sourceTree = "<group>"; };
+		F796EE2D28C99D0A0034CE58 /* FavoritesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoritesViewController.swift; sourceTree = "<group>"; };
+		F796EE2F28C99D1E0034CE58 /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
 		FB63055C28C7929E00FBAA1B /* CaritAppLogin.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CaritAppLogin.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FB63055F28C7929E00FBAA1B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FB63056128C7929E00FBAA1B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -68,6 +76,10 @@
 				FB63056128C7929E00FBAA1B /* SceneDelegate.swift */,
 				FB63056328C7929E00FBAA1B /* ViewController.swift */,
 				FB63056528C7929E00FBAA1B /* Main.storyboard */,
+				F796EE2928C99C8B0034CE58 /* MyProjectsViewController.swift */,
+				F796EE2D28C99D0A0034CE58 /* FavoritesViewController.swift */,
+				F796EE2B28C99CD30034CE58 /* ProjectsViewController.swift */,
+				F796EE2F28C99D1E0034CE58 /* ProfileViewController.swift */,
 				FB63057328C797AE00FBAA1B /* RegisterViewController.swift */,
 				FB63056828C792A200FBAA1B /* Assets.xcassets */,
 				FB63056A28C792A200FBAA1B /* LaunchScreen.storyboard */,
@@ -151,7 +163,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F796EE2A28C99C8B0034CE58 /* MyProjectsViewController.swift in Sources */,
+				F796EE2E28C99D0A0034CE58 /* FavoritesViewController.swift in Sources */,
+				F796EE3028C99D1E0034CE58 /* ProfileViewController.swift in Sources */,
 				FB63056428C7929E00FBAA1B /* ViewController.swift in Sources */,
+				F796EE2C28C99CD30034CE58 /* ProjectsViewController.swift in Sources */,
 				FB6B8BD428C8DFBE003C38F5 /* DashboardViewController.swift in Sources */,
 				FB63056028C7929E00FBAA1B /* AppDelegate.swift in Sources */,
 				FB63056228C7929E00FBAA1B /* SceneDelegate.swift in Sources */,
