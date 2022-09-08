@@ -22,7 +22,7 @@ class ViewController: UIViewController {
         indicatorLogin.startAnimating()
         btnLogin.isSelected = true
         
-        if tfUsuario.text == "Ricardo" && tfPassword.text == "rgg2001"{
+        if tfUsuario.text == "user" && tfPassword.text == "123"{
             delay(2, closure: { () -> () in
                 self.indicatorLogin.stopAnimating()
                 self.btnLogin.isSelected = false
