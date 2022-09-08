@@ -21,6 +21,7 @@
 		FB6B8BD228C8DE78003C38F5 /* Common.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB6B8BD128C8DE78003C38F5 /* Common.swift */; };
 		FB6B8BD428C8DFBE003C38F5 /* DashboardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB6B8BD328C8DFBE003C38F5 /* DashboardViewController.swift */; };
 		FB6B8BD628C8F2D1003C38F5 /* 29542496_1811504518869839_5606888313433666676_n.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FB6B8BD528C8F2D1003C38F5 /* 29542496_1811504518869839_5606888313433666676_n.jpg */; };
+		FB6B8BD828CA35F0003C38F5 /* Background image@1x.png in Resources */ = {isa = PBXBuildFile; fileRef = FB6B8BD728CA35F0003C38F5 /* Background image@1x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -40,6 +41,7 @@
 		FB6B8BD128C8DE78003C38F5 /* Common.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Common.swift; sourceTree = "<group>"; };
 		FB6B8BD328C8DFBE003C38F5 /* DashboardViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashboardViewController.swift; sourceTree = "<group>"; };
 		FB6B8BD528C8F2D1003C38F5 /* 29542496_1811504518869839_5606888313433666676_n.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 29542496_1811504518869839_5606888313433666676_n.jpg; sourceTree = "<group>"; };
+		FB6B8BD728CA35F0003C38F5 /* Background image@1x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Background image@1x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -87,6 +89,7 @@
 				FB6B8BD128C8DE78003C38F5 /* Common.swift */,
 				FB6B8BD328C8DFBE003C38F5 /* DashboardViewController.swift */,
 				FB6B8BD528C8F2D1003C38F5 /* 29542496_1811504518869839_5606888313433666676_n.jpg */,
+				FB6B8BD728CA35F0003C38F5 /* Background image@1x.png */,
 			);
 			path = CaritAppLogin;
 			sourceTree = "<group>";
@@ -150,6 +153,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				FB63056C28C792A200FBAA1B /* LaunchScreen.storyboard in Resources */,
+				FB6B8BD828CA35F0003C38F5 /* Background image@1x.png in Resources */,
 				FB63056928C792A200FBAA1B /* Assets.xcassets in Resources */,
 				FB6B8BD628C8F2D1003C38F5 /* 29542496_1811504518869839_5606888313433666676_n.jpg in Resources */,
 				FB63056728C7929E00FBAA1B /* Main.storyboard in Resources */,
