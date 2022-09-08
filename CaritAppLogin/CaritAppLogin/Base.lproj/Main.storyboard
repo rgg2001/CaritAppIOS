@@ -119,7 +119,6 @@
         <!--Encuentra tu proyecto-->
         <scene sceneID="Idj-C5-nNT">
             <objects>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="8mI-om-VeP" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
                 <viewController id="kdT-1B-GGK" customClass="ProjectsViewController" customModule="CaritAppLogin" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Zpt-zA-S65">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
@@ -218,6 +217,7 @@
                     </view>
                     <navigationItem key="navigationItem" title="Encuentra tu proyecto" id="VNw-rX-BO3"/>
                 </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="8mI-om-VeP" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="2673.913043478261" y="67.633928571428569"/>
         </scene>
@@ -429,7 +429,6 @@
         <!--Proyectos-->
         <scene sceneID="4z1-zS-Ewl">
             <objects>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="yCh-zT-axc" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="7wS-nf-suH" sceneMemberID="viewController">
                     <tabBarItem key="tabBarItem" title="Proyectos" image="map" catalog="system" id="dqO-5F-44s"/>
                     <toolbarItems/>
@@ -442,6 +441,7 @@
                         <segue destination="kdT-1B-GGK" kind="relationship" relationship="rootViewController" id="wlV-85-s8U"/>
                     </connections>
                 </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="yCh-zT-axc" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1763.7681159420292" y="67.633928571428569"/>
         </scene>
