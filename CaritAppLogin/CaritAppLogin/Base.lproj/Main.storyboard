@@ -403,10 +403,13 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Asi-u9-Mr5">
-                                <rect key="frame" x="140" y="518" width="135" height="39"/>
+                                <rect key="frame" x="280" y="140" width="114" height="25"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="tintColor" white="0.095424833749999993" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="gray" title="Cerrar sesión"/>
+                                <buttonConfiguration key="configuration" style="gray" title="Cerrar sesión">
+                                    <color key="baseBackgroundColor" red="1" green="0.49803921569999998" blue="0.1960784314" alpha="1" colorSpace="calibratedRGB"/>
+                                </buttonConfiguration>
                                 <connections>
                                     <segue destination="BYZ-38-t0r" kind="presentation" modalPresentationStyle="fullScreen" id="Ljq-rC-D0q"/>
                                 </connections>
@@ -419,7 +422,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="a3M-4f-zzy" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1733" y="727"/>
+            <point key="canvasLocation" x="1731.8840579710147" y="726.5625"/>
         </scene>
         <!--Mis proyectos-->
         <scene sceneID="31z-eS-YSp">
