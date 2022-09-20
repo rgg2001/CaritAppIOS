@@ -10,7 +10,10 @@
 		F796EE2A28C99C8B0034CE58 /* MyProjectsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F796EE2928C99C8B0034CE58 /* MyProjectsViewController.swift */; };
 		F796EE2C28C99CD30034CE58 /* ProjectsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F796EE2B28C99CD30034CE58 /* ProjectsViewController.swift */; };
 		F796EE2E28C99D0A0034CE58 /* FavoritesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F796EE2D28C99D0A0034CE58 /* FavoritesViewController.swift */; };
-		F796EE3028C99D1E0034CE58 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F796EE2F28C99D1E0034CE58 /* ProfileViewController.swift */; };
+		FB32901D28DA1625003755D4 /* BarChartClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB32901C28DA1625003755D4 /* BarChartClass.swift */; };
+		FB32901F28DA1649003755D4 /* JPieChart.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB32901E28DA1649003755D4 /* JPieChart.swift */; };
+		FB32902128DA167C003755D4 /* JPieChartDataSet.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB32902028DA167C003755D4 /* JPieChartDataSet.swift */; };
+		FB32902328DA16A8003755D4 /* UIColor+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB32902228DA16A8003755D4 /* UIColor+Extension.swift */; };
 		FB63056028C7929E00FBAA1B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB63055F28C7929E00FBAA1B /* AppDelegate.swift */; };
 		FB63056228C7929E00FBAA1B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB63056128C7929E00FBAA1B /* SceneDelegate.swift */; };
 		FB63056428C7929E00FBAA1B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB63056328C7929E00FBAA1B /* ViewController.swift */; };
@@ -23,6 +26,8 @@
 		FB6B8BD628C8F2D1003C38F5 /* 29542496_1811504518869839_5606888313433666676_n.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FB6B8BD528C8F2D1003C38F5 /* 29542496_1811504518869839_5606888313433666676_n.jpg */; };
 		FB6B8BD828CA35F0003C38F5 /* Background image@1x.png in Resources */ = {isa = PBXBuildFile; fileRef = FB6B8BD728CA35F0003C38F5 /* Background image@1x.png */; };
 		FB6B8BDA28CA3EB8003C38F5 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB6B8BD928CA3EB8003C38F5 /* LoginViewController.swift */; };
+		FBB3356428DA10D00032ED9C /* Grafica in Resources */ = {isa = PBXBuildFile; fileRef = FBB3356328DA10D00032ED9C /* Grafica */; };
+		FBB3356528DA12260032ED9C /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F796EE2F28C99D1E0034CE58 /* ProfileViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +35,10 @@
 		F796EE2B28C99CD30034CE58 /* ProjectsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProjectsViewController.swift; sourceTree = "<group>"; };
 		F796EE2D28C99D0A0034CE58 /* FavoritesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoritesViewController.swift; sourceTree = "<group>"; };
 		F796EE2F28C99D1E0034CE58 /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
+		FB32901C28DA1625003755D4 /* BarChartClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BarChartClass.swift; sourceTree = "<group>"; };
+		FB32901E28DA1649003755D4 /* JPieChart.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JPieChart.swift; sourceTree = "<group>"; };
+		FB32902028DA167C003755D4 /* JPieChartDataSet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JPieChartDataSet.swift; sourceTree = "<group>"; };
+		FB32902228DA16A8003755D4 /* UIColor+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+Extension.swift"; sourceTree = "<group>"; };
 		FB63055C28C7929E00FBAA1B /* CaritAppLogin.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CaritAppLogin.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FB63055F28C7929E00FBAA1B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FB63056128C7929E00FBAA1B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -44,6 +53,7 @@
 		FB6B8BD528C8F2D1003C38F5 /* 29542496_1811504518869839_5606888313433666676_n.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 29542496_1811504518869839_5606888313433666676_n.jpg; sourceTree = "<group>"; };
 		FB6B8BD728CA35F0003C38F5 /* Background image@1x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Background image@1x.png"; sourceTree = "<group>"; };
 		FB6B8BD928CA3EB8003C38F5 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		FBB3356328DA10D00032ED9C /* Grafica */ = {isa = PBXFileReference; lastKnownFileType = folder; name = Grafica; path = ../../../EjemploGraficaPie/EjemploGraficaPie/Grafica; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +67,17 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		FB32901328DA1509003755D4 /* Graficas */ = {
+			isa = PBXGroup;
+			children = (
+				FB32901C28DA1625003755D4 /* BarChartClass.swift */,
+				FB32901E28DA1649003755D4 /* JPieChart.swift */,
+				FB32902028DA167C003755D4 /* JPieChartDataSet.swift */,
+				FB32902228DA16A8003755D4 /* UIColor+Extension.swift */,
+			);
+			name = Graficas;
+			sourceTree = "<group>";
+		};
 		FB63055328C7929E00FBAA1B = {
 			isa = PBXGroup;
 			children = (
@@ -76,6 +97,7 @@
 		FB63055E28C7929E00FBAA1B /* CaritAppLogin */ = {
 			isa = PBXGroup;
 			children = (
+				FB32901328DA1509003755D4 /* Graficas */,
 				FB63055F28C7929E00FBAA1B /* AppDelegate.swift */,
 				FB63056128C7929E00FBAA1B /* SceneDelegate.swift */,
 				FB63056328C7929E00FBAA1B /* ViewController.swift */,
@@ -84,6 +106,7 @@
 				F796EE2B28C99CD30034CE58 /* ProjectsViewController.swift */,
 				F796EE2928C99C8B0034CE58 /* MyProjectsViewController.swift */,
 				F796EE2D28C99D0A0034CE58 /* FavoritesViewController.swift */,
+				FBB3356328DA10D00032ED9C /* Grafica */,
 				F796EE2F28C99D1E0034CE58 /* ProfileViewController.swift */,
 				FB63057328C797AE00FBAA1B /* RegisterViewController.swift */,
 				FB63056828C792A200FBAA1B /* Assets.xcassets */,
@@ -156,6 +179,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				FB63056C28C792A200FBAA1B /* LaunchScreen.storyboard in Resources */,
+				FBB3356428DA10D00032ED9C /* Grafica in Resources */,
 				FB6B8BD828CA35F0003C38F5 /* Background image@1x.png in Resources */,
 				FB63056928C792A200FBAA1B /* Assets.xcassets in Resources */,
 				FB6B8BD628C8F2D1003C38F5 /* 29542496_1811504518869839_5606888313433666676_n.jpg in Resources */,
@@ -171,16 +195,20 @@
 			buildActionMask = 2147483647;
 			files = (
 				F796EE2A28C99C8B0034CE58 /* MyProjectsViewController.swift in Sources */,
+				FB32901F28DA1649003755D4 /* JPieChart.swift in Sources */,
 				F796EE2E28C99D0A0034CE58 /* FavoritesViewController.swift in Sources */,
-				F796EE3028C99D1E0034CE58 /* ProfileViewController.swift in Sources */,
 				FB63056428C7929E00FBAA1B /* ViewController.swift in Sources */,
 				F796EE2C28C99CD30034CE58 /* ProjectsViewController.swift in Sources */,
 				FB6B8BD428C8DFBE003C38F5 /* DashboardViewController.swift in Sources */,
 				FB63056028C7929E00FBAA1B /* AppDelegate.swift in Sources */,
+				FBB3356528DA12260032ED9C /* ProfileViewController.swift in Sources */,
 				FB63056228C7929E00FBAA1B /* SceneDelegate.swift in Sources */,
+				FB32902328DA16A8003755D4 /* UIColor+Extension.swift in Sources */,
+				FB32902128DA167C003755D4 /* JPieChartDataSet.swift in Sources */,
 				FB6B8BD228C8DE78003C38F5 /* Common.swift in Sources */,
 				FB63057428C797AE00FBAA1B /* RegisterViewController.swift in Sources */,
 				FB6B8BDA28CA3EB8003C38F5 /* LoginViewController.swift in Sources */,
+				FB32901D28DA1625003755D4 /* BarChartClass.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
