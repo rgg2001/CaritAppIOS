@@ -56,4 +56,40 @@ extension UIColor {
         
     }
     
+    class var caritasNaranja: UIColor {
+        
+        return UIColor(red: 255.0 / 255.0, green: 127.0 / 255.0, blue: 50.0 / 255.0, alpha: 1.0)
+        
+    }
+    
+    class var caritasRosita: UIColor {
+        
+        return UIColor(red: 161.0 / 255.0, green: 90.0 / 255.0, blue: 149.0 / 255.0, alpha: 1.0)
+        
+    }
+    
+    class var caritasGris: UIColor {
+        
+        return UIColor(red: 136.0 / 255.0, green: 139.0 / 255.0, blue: 141.0 / 255.0, alpha: 1.0)
+        
+    }
+    
+    class var caritasAcua: UIColor {
+        
+        return UIColor(red: 0.0 / 255.0, green: 156.0 / 255.0, blue: 166.0 / 255.0, alpha: 1.0)
+        
+    }
+    
+    class var caritasAzulO: UIColor {
+        
+        return UIColor(red: 0.0 / 255.0, green: 59.0 / 255.0, blue: 92.0 / 255.0, alpha: 1.0)
+        
+    }
+    
+    class var caritasGrisV: UIColor {
+        
+        return UIColor(red: 209.0 / 255.0, green: 224.0 / 255.0, blue: 215.0 / 255.0, alpha: 1.0)
+    
+    }
+    
 }

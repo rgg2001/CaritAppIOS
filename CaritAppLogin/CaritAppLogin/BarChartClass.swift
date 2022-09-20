@@ -94,7 +94,7 @@ class BarChartView: UIView {
     }
 
     func drawAxe(_ height: Double, _ title: String){
-            let line4 = UIView()
+        let line4 = UIView()
         line4.frame = CGRect(x: 15.0, y: CGFloat(height + 5.0), width: self.frame.width - 20, height: 1.0)
         line4.backgroundColor = .systemGray3
         self.addSubview(line4)
