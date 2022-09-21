@@ -26,7 +26,6 @@
 		FB6B8BD628C8F2D1003C38F5 /* 29542496_1811504518869839_5606888313433666676_n.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FB6B8BD528C8F2D1003C38F5 /* 29542496_1811504518869839_5606888313433666676_n.jpg */; };
 		FB6B8BD828CA35F0003C38F5 /* Background image@1x.png in Resources */ = {isa = PBXBuildFile; fileRef = FB6B8BD728CA35F0003C38F5 /* Background image@1x.png */; };
 		FB6B8BDA28CA3EB8003C38F5 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB6B8BD928CA3EB8003C38F5 /* LoginViewController.swift */; };
-		FBB3356428DA10D00032ED9C /* Grafica in Resources */ = {isa = PBXBuildFile; fileRef = FBB3356328DA10D00032ED9C /* Grafica */; };
 		FBB3356528DA12260032ED9C /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F796EE2F28C99D1E0034CE58 /* ProfileViewController.swift */; };
 /* End PBXBuildFile section */
 
@@ -53,7 +52,6 @@
 		FB6B8BD528C8F2D1003C38F5 /* 29542496_1811504518869839_5606888313433666676_n.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 29542496_1811504518869839_5606888313433666676_n.jpg; sourceTree = "<group>"; };
 		FB6B8BD728CA35F0003C38F5 /* Background image@1x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Background image@1x.png"; sourceTree = "<group>"; };
 		FB6B8BD928CA3EB8003C38F5 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
-		FBB3356328DA10D00032ED9C /* Grafica */ = {isa = PBXFileReference; lastKnownFileType = folder; name = Grafica; path = ../../../EjemploGraficaPie/EjemploGraficaPie/Grafica; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,7 +104,6 @@
 				F796EE2B28C99CD30034CE58 /* ProjectsViewController.swift */,
 				F796EE2928C99C8B0034CE58 /* MyProjectsViewController.swift */,
 				F796EE2D28C99D0A0034CE58 /* FavoritesViewController.swift */,
-				FBB3356328DA10D00032ED9C /* Grafica */,
 				F796EE2F28C99D1E0034CE58 /* ProfileViewController.swift */,
 				FB63057328C797AE00FBAA1B /* RegisterViewController.swift */,
 				FB63056828C792A200FBAA1B /* Assets.xcassets */,
@@ -179,7 +176,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				FB63056C28C792A200FBAA1B /* LaunchScreen.storyboard in Resources */,
-				FBB3356428DA10D00032ED9C /* Grafica in Resources */,
 				FB6B8BD828CA35F0003C38F5 /* Background image@1x.png in Resources */,
 				FB63056928C792A200FBAA1B /* Assets.xcassets in Resources */,
 				FB6B8BD628C8F2D1003C38F5 /* 29542496_1811504518869839_5606888313433666676_n.jpg in Resources */,
