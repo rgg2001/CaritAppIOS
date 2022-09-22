@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F77DA34328DCF6F3009766CD /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F77DA34228DCF6F3009766CD /* DetailViewController.swift */; };
 		F796EE2A28C99C8B0034CE58 /* MyProjectsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F796EE2928C99C8B0034CE58 /* MyProjectsViewController.swift */; };
 		F796EE2C28C99CD30034CE58 /* ProjectsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F796EE2B28C99CD30034CE58 /* ProjectsViewController.swift */; };
 		F796EE2E28C99D0A0034CE58 /* FavoritesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F796EE2D28C99D0A0034CE58 /* FavoritesViewController.swift */; };
@@ -30,6 +31,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		F77DA34228DCF6F3009766CD /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
 		F796EE2928C99C8B0034CE58 /* MyProjectsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyProjectsViewController.swift; sourceTree = "<group>"; };
 		F796EE2B28C99CD30034CE58 /* ProjectsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProjectsViewController.swift; sourceTree = "<group>"; };
 		F796EE2D28C99D0A0034CE58 /* FavoritesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoritesViewController.swift; sourceTree = "<group>"; };
@@ -100,6 +102,7 @@
 				FB63056128C7929E00FBAA1B /* SceneDelegate.swift */,
 				FB63056328C7929E00FBAA1B /* ViewController.swift */,
 				FB63056528C7929E00FBAA1B /* Main.storyboard */,
+				F77DA34228DCF6F3009766CD /* DetailViewController.swift */,
 				FB6B8BD928CA3EB8003C38F5 /* LoginViewController.swift */,
 				F796EE2B28C99CD30034CE58 /* ProjectsViewController.swift */,
 				F796EE2928C99C8B0034CE58 /* MyProjectsViewController.swift */,
@@ -197,6 +200,7 @@
 				F796EE2C28C99CD30034CE58 /* ProjectsViewController.swift in Sources */,
 				FB6B8BD428C8DFBE003C38F5 /* DashboardViewController.swift in Sources */,
 				FB63056028C7929E00FBAA1B /* AppDelegate.swift in Sources */,
+				F77DA34328DCF6F3009766CD /* DetailViewController.swift in Sources */,
 				FBB3356528DA12260032ED9C /* ProfileViewController.swift in Sources */,
 				FB63056228C7929E00FBAA1B /* SceneDelegate.swift in Sources */,
 				FB32902328DA16A8003755D4 /* UIColor+Extension.swift in Sources */,
