@@ -1,9 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="21225" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="20037" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
     <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
-        <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21207"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="20020"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="System colors in document resources" minToolsVersion="11.0"/>
         <capability name="collection view cell content view" minToolsVersion="11.0"/>
@@ -19,10 +18,10 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Travel Picture" translatesAutoresizingMaskIntoConstraints="NO" id="efq-5X-wEn">
-                                <rect key="frame" x="0.0" y="279" width="414" height="617"/>
+                                <rect key="frame" x="0.0" y="275" width="414" height="621"/>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Conoce como impacta la obra de Cáritas en la comunidad" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="DiP-9u-zTF">
-                                <rect key="frame" x="46" y="187" width="275" height="112"/>
+                                <rect key="frame" x="46" y="183" width="275" height="116"/>
                                 <fontDescription key="fontDescription" style="UICTFontTextStyleTitle1"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
@@ -109,7 +108,7 @@
                                 </connections>
                             </button>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="29542496_1811504518869839_5606888313433666676_n.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="UOe-W2-4RF">
-                                <rect key="frame" x="147" y="48" width="267" height="141"/>
+                                <rect key="frame" x="147" y="44" width="267" height="141"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="141" id="QtL-uJ-woK"/>
                                 </constraints>
@@ -289,7 +288,7 @@
             <objects>
                 <viewController id="4He-he-Mzk" customClass="DetailViewController" customModule="CaritAppLogin" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="9rd-Pt-BNK">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="838"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Image 1" translatesAutoresizingMaskIntoConstraints="NO" id="k4N-1t-cdt">
@@ -379,7 +378,7 @@
             <objects>
                 <viewController id="qeI-O2-xkd" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="bae-m1-QGE">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="838"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Selecciona el horario que deseas reservar" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6Ud-Ta-ORA">
@@ -700,7 +699,7 @@
                     </tabBarItem>
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" largeTitles="YES" id="OSq-aa-ujw">
-                        <rect key="frame" x="0.0" y="48" width="414" height="96"/>
+                        <rect key="frame" x="0.0" y="44" width="414" height="96"/>
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>
                     <nil name="viewControllers"/>
@@ -719,7 +718,7 @@
                     <tabBarItem key="tabBarItem" title="Proyectos" image="map" catalog="system" id="dqO-5F-44s"/>
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" largeTitles="YES" id="hJh-rE-akA">
-                        <rect key="frame" x="0.0" y="48" width="414" height="96"/>
+                        <rect key="frame" x="0.0" y="44" width="414" height="96"/>
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>
                     <nil name="viewControllers"/>
@@ -738,7 +737,7 @@
                     <tabBarItem key="tabBarItem" title="Favoritos" image="heart" catalog="system" id="QPI-NR-gyB"/>
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" largeTitles="YES" id="Sw7-Op-XLP">
-                        <rect key="frame" x="0.0" y="48" width="414" height="96"/>
+                        <rect key="frame" x="0.0" y="44" width="414" height="96"/>
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>
                     <nil name="viewControllers"/>
@@ -757,7 +756,7 @@
                     <tabBarItem key="tabBarItem" title="Perfil" image="person.circle" catalog="system" id="6tD-jw-mao"/>
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" largeTitles="YES" id="zfI-Aw-hih">
-                        <rect key="frame" x="0.0" y="48" width="414" height="96"/>
+                        <rect key="frame" x="0.0" y="44" width="414" height="96"/>
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>
                     <nil name="viewControllers"/>
@@ -777,10 +776,10 @@
         <image name="Travel Picture" width="376" height="564"/>
         <image name="alimentos" width="700" height="525"/>
         <image name="calendar.badge.clock" catalog="system" width="128" height="108"/>
-        <image name="heart" catalog="system" width="128" height="107"/>
-        <image name="location" catalog="system" width="128" height="121"/>
-        <image name="map" catalog="system" width="128" height="112"/>
-        <image name="person.circle" catalog="system" width="128" height="123"/>
+        <image name="heart" catalog="system" width="128" height="109"/>
+        <image name="location" catalog="system" width="128" height="118"/>
+        <image name="map" catalog="system" width="128" height="110"/>
+        <image name="person.circle" catalog="system" width="128" height="121"/>
         <systemColor name="linkColor">
             <color red="0.0" green="0.47843137254901963" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
