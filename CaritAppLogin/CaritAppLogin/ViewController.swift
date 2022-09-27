@@ -33,7 +33,7 @@ class ViewController: UIViewController {
                 self.indicatorLogin.stopAnimating()
                 self.btnLogin.isSelected = false
                 // Pop Up Alerta
-                let alerta = UIAlertController(title: "Usuario o Contrasña Incorrecta", message: "Favor de insertar los valores correctos", preferredStyle: .alert)
+                let alerta = UIAlertController(title: "Usuario o Contraseña Incorrecta", message: "Favor de insertar los valores correctos", preferredStyle: .alert)
                 let botonCancel = UIAlertAction(title: "OK", style: .cancel, handler: nil)
                 alerta.addAction(botonCancel)
                 self.present(alerta, animated: true)

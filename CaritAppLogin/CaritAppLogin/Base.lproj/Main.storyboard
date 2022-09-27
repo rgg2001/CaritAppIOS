@@ -5,6 +5,7 @@
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="20020"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="UIMenu" message="Requires Xcode 11 or later." minToolsVersion="11.0" requiredIntegratedClassName="UICommandDiff"/>
         <capability name="collection view cell content view" minToolsVersion="11.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
@@ -326,19 +327,6 @@
                                 <color key="textColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jcu-FA-pGP">
-                                <rect key="frame" x="154" y="706" width="106" height="35"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="filled" title="Reserva">
-                                    <backgroundConfiguration key="background">
-                                        <color key="backgroundColor" red="0.0" green="0.61176470589999998" blue="0.65098039220000004" alpha="1" colorSpace="calibratedRGB"/>
-                                    </backgroundConfiguration>
-                                </buttonConfiguration>
-                                <connections>
-                                    <segue destination="qeI-O2-xkd" kind="show" id="6Rz-TY-sYT"/>
-                                </connections>
-                            </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="p8e-9c-0QZ">
                                 <rect key="frame" x="332" y="31" width="51" height="34"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -364,46 +352,42 @@
                                     <color key="baseBackgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </buttonConfiguration>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" showsMenuAsPrimaryAction="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" changesSelectionAsPrimaryAction="YES" translatesAutoresizingMaskIntoConstraints="NO" id="U9s-yX-3VQ">
+                                <rect key="frame" x="104" y="653" width="206" height="37"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <menu key="menu" id="afZ-bx-e1m">
+                                    <children>
+                                        <command title="Item 1" id="Vbs-7a-xJZ"/>
+                                        <command title="Item 2" id="GuD-MJ-NmI"/>
+                                    </children>
+                                </menu>
+                                <buttonConfiguration key="configuration" style="filled"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jcu-FA-pGP">
+                                <rect key="frame" x="156" y="727" width="106" height="35"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="filled" title="Reserva">
+                                    <backgroundConfiguration key="background">
+                                        <color key="backgroundColor" red="0.0" green="0.61176470589999998" blue="0.65098039220000004" alpha="1" colorSpace="calibratedRGB"/>
+                                    </backgroundConfiguration>
+                                </buttonConfiguration>
+                                <connections>
+                                    <action selector="botonReservaPressed:" destination="4He-he-Mzk" eventType="touchUpInside" id="Sgx-ww-VVd"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="2Nn-wI-fDN"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
+                    <connections>
+                        <outlet property="botonReserva" destination="jcu-FA-pGP" id="nK1-5L-xiJ"/>
+                        <outlet property="popUpHorario" destination="U9s-yX-3VQ" id="GUM-xO-0xJ"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="txw-69-FvI" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="3460.8695652173915" y="67.633928571428569"/>
-        </scene>
-        <!--View Controller-->
-        <scene sceneID="CB7-1s-Ccq">
-            <objects>
-                <viewController id="qeI-O2-xkd" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="bae-m1-QGE">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Selecciona el horario que deseas reservar" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6Ud-Ta-ORA">
-                                <rect key="frame" x="43" y="78" width="329" height="86"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="27"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xSI-Ob-Yll">
-                                <rect key="frame" x="53" y="247" width="88" height="96"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="tintColor" red="0.0" green="0.61176470589999998" blue="0.65098039220000004" alpha="1" colorSpace="calibratedRGB"/>
-                                <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="filled" title="Hoy 8"/>
-                            </button>
-                        </subviews>
-                        <viewLayoutGuide key="safeArea" id="obC-Fu-xx9"/>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
-                    </view>
-                    <navigationItem key="navigationItem" id="1I0-a7-7Lu"/>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="liJ-3r-cZn" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="4247.826086956522" y="67.633928571428569"/>
         </scene>
         <!--Register View Controller-->
         <scene sceneID="dbu-IQ-o4p">

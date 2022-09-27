@@ -9,21 +9,34 @@ import UIKit
 
 class DetailViewController: UIViewController {
 
+    
+    @IBOutlet weak var botonReserva: UIButton!
+    
+    @IBOutlet weak var popUpHorario: UIButton!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-
+        setPopupButton()
         // Do any additional setup after loading the view.
     }
     
-
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destination.
-        // Pass the selected object to the new view controller.
+    func setPopupButton(){
+        let optionClosure = {(action : UIAction) in print(action.title)}
+        popUpHorario.menu = UIMenu(children : [
+            UIAction(title : "Cualquier Horario", state : .on, handler: optionClosure),
+            UIAction(title : "Horario Matutiono", handler: optionClosure),
+            UIAction(title : "Horario Despertino", handler: optionClosure)])
+        popUpHorario.showsMenuAsPrimaryAction = true
+        popUpHorario.changesSelectionAsPrimaryAction = true
     }
-    */
+    
+    
+    @IBAction func botonReservaPressed(_ sender: Any) {
+        let alerta = UIAlertController(title: "¡Listo!", message: "Tus datos han sido registrados, pronto recibiras confirmación de tu voluntariado", preferredStyle: .alert)
+        let botonCancel = UIAlertAction(title: "OK", style: .cancel, handler: nil)
+        alerta.addAction(botonCancel)
+        self.present(alerta, animated: true)
+    }
+    
 
 }
