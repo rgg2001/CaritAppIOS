@@ -10,6 +10,8 @@ import UIKit
 class DetailViewController: UIViewController {
 
     
+    @IBOutlet weak var switchFav: UISwitch!
+    
     @IBOutlet weak var botonReserva: UIButton!
     
     @IBOutlet weak var popUpHorario: UIButton!
@@ -18,6 +20,16 @@ class DetailViewController: UIViewController {
         super.viewDidLoad()
         setPopupButton()
         // Do any additional setup after loading the view.
+    }
+    
+    
+    @IBAction func switchPressed(_ sender: Any) {
+        if(switchFav.isOn){
+            
+        }else{
+            
+        }
+            
     }
     
     func setPopupButton(){

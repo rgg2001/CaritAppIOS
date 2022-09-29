@@ -11,6 +11,8 @@
 		F796EE2A28C99C8B0034CE58 /* MyProjectsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F796EE2928C99C8B0034CE58 /* MyProjectsViewController.swift */; };
 		F796EE2C28C99CD30034CE58 /* ProjectsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F796EE2B28C99CD30034CE58 /* ProjectsViewController.swift */; };
 		F796EE2E28C99D0A0034CE58 /* FavoritesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F796EE2D28C99D0A0034CE58 /* FavoritesViewController.swift */; };
+		FB28EAD428E656870022A671 /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB28EAD328E656870022A671 /* Model.swift */; };
+		FB28EAD628E65DD30022A671 /* AdminProjectsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB28EAD528E65DD30022A671 /* AdminProjectsViewController.swift */; };
 		FB32901D28DA1625003755D4 /* BarChartClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB32901C28DA1625003755D4 /* BarChartClass.swift */; };
 		FB32901F28DA1649003755D4 /* JPieChart.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB32901E28DA1649003755D4 /* JPieChart.swift */; };
 		FB32902128DA167C003755D4 /* JPieChartDataSet.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB32902028DA167C003755D4 /* JPieChartDataSet.swift */; };
@@ -37,6 +39,8 @@
 		F796EE2B28C99CD30034CE58 /* ProjectsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProjectsViewController.swift; sourceTree = "<group>"; };
 		F796EE2D28C99D0A0034CE58 /* FavoritesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoritesViewController.swift; sourceTree = "<group>"; };
 		F796EE2F28C99D1E0034CE58 /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
+		FB28EAD328E656870022A671 /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
+		FB28EAD528E65DD30022A671 /* AdminProjectsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdminProjectsViewController.swift; sourceTree = "<group>"; };
 		FB32901C28DA1625003755D4 /* BarChartClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BarChartClass.swift; sourceTree = "<group>"; };
 		FB32901E28DA1649003755D4 /* JPieChart.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JPieChart.swift; sourceTree = "<group>"; };
 		FB32902028DA167C003755D4 /* JPieChartDataSet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JPieChartDataSet.swift; sourceTree = "<group>"; };
@@ -103,7 +107,9 @@
 				FB63055F28C7929E00FBAA1B /* AppDelegate.swift */,
 				FB63056128C7929E00FBAA1B /* SceneDelegate.swift */,
 				FB63056328C7929E00FBAA1B /* ViewController.swift */,
+				FB28EAD328E656870022A671 /* Model.swift */,
 				FB63056528C7929E00FBAA1B /* Main.storyboard */,
+				FB28EAD528E65DD30022A671 /* AdminProjectsViewController.swift */,
 				FB49DC3828E33EF2004C5A05 /* DatePickerViewController.swift */,
 				F77DA34228DCF6F3009766CD /* DetailViewController.swift */,
 				FB6B8BD928CA3EB8003C38F5 /* LoginViewController.swift */,
@@ -202,9 +208,11 @@
 				FB63056428C7929E00FBAA1B /* ViewController.swift in Sources */,
 				F796EE2C28C99CD30034CE58 /* ProjectsViewController.swift in Sources */,
 				FB6B8BD428C8DFBE003C38F5 /* DashboardViewController.swift in Sources */,
+				FB28EAD628E65DD30022A671 /* AdminProjectsViewController.swift in Sources */,
 				FB63056028C7929E00FBAA1B /* AppDelegate.swift in Sources */,
 				F77DA34328DCF6F3009766CD /* DetailViewController.swift in Sources */,
 				FBB3356528DA12260032ED9C /* ProfileViewController.swift in Sources */,
+				FB28EAD428E656870022A671 /* Model.swift in Sources */,
 				FB63056228C7929E00FBAA1B /* SceneDelegate.swift in Sources */,
 				FB32902328DA16A8003755D4 /* UIColor+Extension.swift in Sources */,
 				FB32902128DA167C003755D4 /* JPieChartDataSet.swift in Sources */,
