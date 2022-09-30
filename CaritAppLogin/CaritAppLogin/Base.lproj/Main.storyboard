@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="20037" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="21225" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
     <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="20020"/>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21207"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="System colors in document resources" minToolsVersion="11.0"/>
         <capability name="UIMenu" message="Requires Xcode 11 or later." minToolsVersion="11.0" requiredIntegratedClassName="UICommandDiff"/>
@@ -19,10 +20,10 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Travel Picture" translatesAutoresizingMaskIntoConstraints="NO" id="efq-5X-wEn">
-                                <rect key="frame" x="0.0" y="275" width="414" height="621"/>
+                                <rect key="frame" x="0.0" y="279" width="414" height="617"/>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Conoce como impacta la obra de Cáritas en la comunidad" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="DiP-9u-zTF">
-                                <rect key="frame" x="46" y="183" width="275" height="116"/>
+                                <rect key="frame" x="46" y="187" width="275" height="112"/>
                                 <fontDescription key="fontDescription" style="UICTFontTextStyleTitle1"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
@@ -109,11 +110,20 @@
                                 </connections>
                             </button>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="29542496_1811504518869839_5606888313433666676_n.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="UOe-W2-4RF">
-                                <rect key="frame" x="147" y="44" width="267" height="141"/>
+                                <rect key="frame" x="147" y="48" width="267" height="141"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="141" id="QtL-uJ-woK"/>
                                 </constraints>
                             </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Cn0-uN-lLm">
+                                <rect key="frame" x="89" y="669" width="97" height="35"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="filled" title="ADMIN"/>
+                                <connections>
+                                    <segue destination="XEB-KZ-Kw2" kind="presentation" modalPresentationStyle="fullScreen" id="UdY-Xk-St7"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
@@ -196,8 +206,8 @@
                                                 <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Il0-2q-w6r">
                                                     <rect key="frame" x="20" y="8" width="374" height="420"/>
                                                     <subviews>
-                                                        <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="alimentos" translatesAutoresizingMaskIntoConstraints="NO" id="w0f-mF-3oX">
-                                                            <rect key="frame" x="0.0" y="0.0" width="374" height="420"/>
+                                                        <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="alimentos" translatesAutoresizingMaskIntoConstraints="NO" id="w0f-mF-3oX">
+                                                            <rect key="frame" x="0.0" y="0.0" width="374" height="421"/>
                                                             <constraints>
                                                                 <constraint firstAttribute="height" constant="420" id="51e-0t-2Vc"/>
                                                                 <constraint firstAttribute="width" constant="374" id="KpD-Xd-UOv"/>
@@ -265,7 +275,7 @@
                                 </connections>
                             </collectionView>
                             <navigationBar contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="mYR-oq-s4h">
-                                <rect key="frame" x="-1" y="426" width="415" height="44"/>
+                                <rect key="frame" x="-3" y="426" width="415" height="44"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
                             </navigationBar>
                         </subviews>
@@ -289,7 +299,7 @@
             <objects>
                 <viewController id="4He-he-Mzk" customClass="DetailViewController" customModule="CaritAppLogin" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="9rd-Pt-BNK">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="838"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Image 1" translatesAutoresizingMaskIntoConstraints="NO" id="k4N-1t-cdt">
@@ -689,7 +699,7 @@
                     </tabBarItem>
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" largeTitles="YES" id="OSq-aa-ujw">
-                        <rect key="frame" x="0.0" y="44" width="414" height="96"/>
+                        <rect key="frame" x="0.0" y="48" width="414" height="96"/>
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>
                     <nil name="viewControllers"/>
@@ -708,7 +718,7 @@
                     <tabBarItem key="tabBarItem" title="Proyectos" image="map" catalog="system" id="dqO-5F-44s"/>
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" largeTitles="YES" id="hJh-rE-akA">
-                        <rect key="frame" x="0.0" y="44" width="414" height="96"/>
+                        <rect key="frame" x="0.0" y="48" width="414" height="96"/>
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>
                     <nil name="viewControllers"/>
@@ -727,7 +737,7 @@
                     <tabBarItem key="tabBarItem" title="Favoritos" image="heart" catalog="system" id="QPI-NR-gyB"/>
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" largeTitles="YES" id="Sw7-Op-XLP">
-                        <rect key="frame" x="0.0" y="44" width="414" height="96"/>
+                        <rect key="frame" x="0.0" y="48" width="414" height="96"/>
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>
                     <nil name="viewControllers"/>
@@ -739,21 +749,6 @@
             </objects>
             <point key="canvasLocation" x="4207" y="727"/>
         </scene>
-        <!--Admin Projects View Controller-->
-        <scene sceneID="54B-dD-Lqt">
-            <objects>
-                <viewController id="Ti8-A3-Jcb" customClass="AdminProjectsViewController" customModule="CaritAppLogin" customModuleProvider="target" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="xJb-1V-pFP">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <viewLayoutGuide key="safeArea" id="UIM-j9-qOf"/>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
-                    </view>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="PZ9-iM-99a" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="854" y="1426"/>
-        </scene>
         <!--Perfil-->
         <scene sceneID="doi-UO-tfF">
             <objects>
@@ -761,7 +756,7 @@
                     <tabBarItem key="tabBarItem" title="Perfil" image="person.circle" catalog="system" id="6tD-jw-mao"/>
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" largeTitles="YES" id="zfI-Aw-hih">
-                        <rect key="frame" x="0.0" y="44" width="414" height="96"/>
+                        <rect key="frame" x="0.0" y="48" width="414" height="96"/>
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>
                     <nil name="viewControllers"/>
@@ -773,6 +768,95 @@
             </objects>
             <point key="canvasLocation" x="854" y="726"/>
         </scene>
+        <!--Proyectos asignados-->
+        <scene sceneID="Fw5-yd-oqn">
+            <objects>
+                <viewController id="ajS-G3-BRs" customClass="AdminProjectsViewController" customModule="CaritAppLogin" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="aeH-JU-47w">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <viewLayoutGuide key="safeArea" id="4Gk-5K-ddq"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="Proyectos asignados" id="AEF-0Z-Rmh"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="UVa-ik-cLR" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2673.913043478261" y="1435.7142857142856"/>
+        </scene>
+        <!--Reservaciones-->
+        <scene sceneID="6Mu-EP-kEd">
+            <objects>
+                <viewController id="K39-o4-Bzx" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="26y-pa-5vS">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <viewLayoutGuide key="safeArea" id="afh-vF-IZn"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="Reservaciones" id="SNX-Vg-tCL"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="sEm-ja-Wke" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1763.7681159420292" y="2140.8482142857142"/>
+        </scene>
+        <!--Tab Bar Controller-->
+        <scene sceneID="s9g-CX-OqO">
+            <objects>
+                <tabBarController automaticallyAdjustsScrollViewInsets="NO" id="XEB-KZ-Kw2" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="o3b-wl-NvQ">
+                        <rect key="frame" x="0.0" y="0.0" width="1000" height="1000"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    </tabBar>
+                    <connections>
+                        <segue destination="w44-Le-RcM" kind="relationship" relationship="viewControllers" id="fNF-9s-Lpt"/>
+                        <segue destination="pMB-BS-H89" kind="relationship" relationship="viewControllers" id="uoc-RQ-lhA"/>
+                    </connections>
+                </tabBarController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="weQ-u4-96i" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="853.62318840579712" y="1435.7142857142856"/>
+        </scene>
+        <!--Proyectos asignados-->
+        <scene sceneID="A2R-TP-FNM">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="w44-Le-RcM" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Proyectos asignados" image="checklist" catalog="system" id="RR8-b8-G2Y"/>
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" largeTitles="YES" id="wZO-pt-k80">
+                        <rect key="frame" x="0.0" y="48" width="414" height="96"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="ajS-G3-BRs" kind="relationship" relationship="rootViewController" id="xkg-z8-ry7"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="DMp-aw-bZv" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1763.7681159420292" y="1435.7142857142856"/>
+        </scene>
+        <!--Reservaciones-->
+        <scene sceneID="JBc-BW-bW7">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="pMB-BS-H89" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Reservaciones" image="checkmark.circle.fill" catalog="system" id="NVu-Gz-Hkk"/>
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" largeTitles="YES" id="d3K-43-RkB">
+                        <rect key="frame" x="0.0" y="48" width="414" height="96"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="K39-o4-Bzx" kind="relationship" relationship="rootViewController" id="xre-GK-1cb"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="tMk-Ov-pEh" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="853.62318840579712" y="2140.8482142857142"/>
+        </scene>
     </scenes>
     <resources>
         <image name="29542496_1811504518869839_5606888313433666676_n.jpg" width="787" height="787"/>
@@ -781,10 +865,12 @@
         <image name="Travel Picture" width="376" height="564"/>
         <image name="alimentos" width="700" height="525"/>
         <image name="calendar.badge.clock" catalog="system" width="128" height="108"/>
-        <image name="heart" catalog="system" width="128" height="109"/>
-        <image name="location" catalog="system" width="128" height="118"/>
-        <image name="map" catalog="system" width="128" height="110"/>
-        <image name="person.circle" catalog="system" width="128" height="121"/>
+        <image name="checklist" catalog="system" width="128" height="107"/>
+        <image name="checkmark.circle.fill" catalog="system" width="128" height="123"/>
+        <image name="heart" catalog="system" width="128" height="107"/>
+        <image name="location" catalog="system" width="128" height="121"/>
+        <image name="map" catalog="system" width="128" height="112"/>
+        <image name="person.circle" catalog="system" width="128" height="123"/>
         <systemColor name="linkColor">
             <color red="0.0" green="0.47843137254901963" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
