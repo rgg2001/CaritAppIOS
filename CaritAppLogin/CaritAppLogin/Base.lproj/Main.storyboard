@@ -519,7 +519,7 @@
                                 </connections>
                             </collectionView>
                             <navigationBar contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="mYR-oq-s4h">
-                                <rect key="frame" x="-4" y="426" width="415" height="44"/>
+                                <rect key="frame" x="-6" y="426" width="415" height="44"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
                             </navigationBar>
                         </subviews>
@@ -841,22 +841,7 @@
                         <viewLayoutGuide key="safeArea" id="gQ9-BQ-KHN"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
-                    <navigationItem key="navigationItem" title="Perfil" id="eKj-jF-IUg">
-                        <barButtonItem key="rightBarButtonItem" style="plain" id="Hvr-q1-6e2">
-                            <button key="customView" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" id="Asi-u9-Mr5">
-                                <rect key="frame" x="26" y="3.5" width="368" height="37"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="tintColor" white="0.095424833749999993" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="gray" title="Cerrar sesión">
-                                    <color key="baseBackgroundColor" red="1" green="0.49803921568627452" blue="0.19607843137254902" alpha="1" colorSpace="calibratedRGB"/>
-                                </buttonConfiguration>
-                                <connections>
-                                    <segue destination="BYZ-38-t0r" kind="presentation" modalPresentationStyle="fullScreen" id="Ljq-rC-D0q"/>
-                                </connections>
-                            </button>
-                        </barButtonItem>
-                    </navigationItem>
+                    <navigationItem key="navigationItem" title="Perfil" id="eKj-jF-IUg"/>
                     <connections>
                         <outlet property="barChart" destination="tnN-bx-QwS" id="F4P-nw-9FP"/>
                         <outlet property="pieChart" destination="hsy-2t-Pim" id="aAq-2R-Y9f"/>
@@ -1315,7 +1300,6 @@
     </scenes>
     <inferredMetricsTieBreakers>
         <segue reference="h5X-IH-eBB"/>
-        <segue reference="7h3-Ca-ZT1"/>
         <segue reference="DPw-q2-uH3"/>
     </inferredMetricsTieBreakers>
     <resources>
