@@ -13,9 +13,11 @@ class ProfileViewController: UIViewController {
     @IBOutlet weak var pieChart: JPieChart!
     @IBOutlet weak var barChart: BarChartView!
     
+    
+    
     // Declaracion de valores iniciales
-    let valoresTabla = [2.0, 3.0, 1.0, 2.0, 3.0, 5.0]
-    let etiquetasFechas = ["Ene", "Feb", "Mar", "Abr", "May", "Jun"]
+    let valoresTabla = [2.0, 3.0, 1.0, 2.0, 3.0, 5.0, 2.0, 3.0, 1.0, 2.0, 3.0, 5.0]
+    let etiquetasFechas = ["Ene", "Feb", "Mar", "Abr", "May", "Jun", "Jul", "Ago", "Sep", "Oct", "Nov", "Dic"]
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -34,6 +36,8 @@ class ProfileViewController: UIViewController {
         // Declaracion de grafica de barras
         barChart.maxValue = 18.0
         barChart.drawChart(valoresTabla,etiquetasFechas)
+        
+        
         
     }
     

@@ -11,6 +11,7 @@
 		F796EE2A28C99C8B0034CE58 /* MyProjectsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F796EE2928C99C8B0034CE58 /* MyProjectsViewController.swift */; };
 		F796EE2C28C99CD30034CE58 /* ProjectsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F796EE2B28C99CD30034CE58 /* ProjectsViewController.swift */; };
 		F796EE2E28C99D0A0034CE58 /* FavoritesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F796EE2D28C99D0A0034CE58 /* FavoritesViewController.swift */; };
+		FB05F6C228E8AE350019CC70 /* AdminConfirmViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB05F6C128E8AE350019CC70 /* AdminConfirmViewController.swift */; };
 		FB28EAD428E656870022A671 /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB28EAD328E656870022A671 /* Model.swift */; };
 		FB28EAD628E65DD30022A671 /* AdminProjectsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB28EAD528E65DD30022A671 /* AdminProjectsViewController.swift */; };
 		FB32901D28DA1625003755D4 /* BarChartClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB32901C28DA1625003755D4 /* BarChartClass.swift */; };
@@ -39,6 +40,7 @@
 		F796EE2B28C99CD30034CE58 /* ProjectsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProjectsViewController.swift; sourceTree = "<group>"; };
 		F796EE2D28C99D0A0034CE58 /* FavoritesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoritesViewController.swift; sourceTree = "<group>"; };
 		F796EE2F28C99D1E0034CE58 /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
+		FB05F6C128E8AE350019CC70 /* AdminConfirmViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdminConfirmViewController.swift; sourceTree = "<group>"; };
 		FB28EAD328E656870022A671 /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
 		FB28EAD528E65DD30022A671 /* AdminProjectsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdminProjectsViewController.swift; sourceTree = "<group>"; };
 		FB32901C28DA1625003755D4 /* BarChartClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BarChartClass.swift; sourceTree = "<group>"; };
@@ -108,6 +110,7 @@
 				FB63056128C7929E00FBAA1B /* SceneDelegate.swift */,
 				FB63056328C7929E00FBAA1B /* ViewController.swift */,
 				FB28EAD328E656870022A671 /* Model.swift */,
+				FB05F6C128E8AE350019CC70 /* AdminConfirmViewController.swift */,
 				FB63056528C7929E00FBAA1B /* Main.storyboard */,
 				FB28EAD528E65DD30022A671 /* AdminProjectsViewController.swift */,
 				FB49DC3828E33EF2004C5A05 /* DatePickerViewController.swift */,
@@ -216,6 +219,7 @@
 				FB63056228C7929E00FBAA1B /* SceneDelegate.swift in Sources */,
 				FB32902328DA16A8003755D4 /* UIColor+Extension.swift in Sources */,
 				FB32902128DA167C003755D4 /* JPieChartDataSet.swift in Sources */,
+				FB05F6C228E8AE350019CC70 /* AdminConfirmViewController.swift in Sources */,
 				FB49DC3928E33EF2004C5A05 /* DatePickerViewController.swift in Sources */,
 				FB6B8BD228C8DE78003C38F5 /* Common.swift in Sources */,
 				FB63057428C797AE00FBAA1B /* RegisterViewController.swift in Sources */,

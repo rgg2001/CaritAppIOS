@@ -7,23 +7,42 @@
 
 import UIKit
 
-class AdminProjectsViewController: UIViewController {
-
-    override func viewDidLoad() {
-        super.viewDidLoad()
-
-        // Do any additional setup after loading the view.
+class AdminProjectsViewController: UIViewController, UICollectionViewDelegate, UICollectionViewDataSource {
+    
+    let nombres = ["Ricardo", "Jorge", "Diana"]
+    let horarios = ["5pm - 7pm", "2pm - 6pm", "2pm - 3pm"]
+    
+    func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
+        return nombres.count
+    }
+    
+    func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
+        
+        let cell = collectionView.dequeueReusableCell(withReuseIdentifier: "postUno", for: indexPath) as! Post1
+        cell.nombre.text = nombres[indexPath.row]
+        cell.horario.text = horarios[indexPath.row]
+        
+        return cell
     }
     
 
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destination.
-        // Pass the selected object to the new view controller.
+    override func viewDidLoad() {
+        super.viewDidLoad()
+        // Do any additional setup after loading the view.
     }
-    */
+    
+}
 
+class Post1: UICollectionViewCell{
+    @IBOutlet weak var nombre: UILabel!
+    @IBOutlet weak var horario: UILabel!
+    @IBOutlet weak var background: UIView!
+    
+   
+    
+    
+    override func awakeFromNib(){
+        
+        background.layer.cornerRadius = 12
+    }
 }
