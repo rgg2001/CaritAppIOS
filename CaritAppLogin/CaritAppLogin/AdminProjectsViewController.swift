@@ -9,18 +9,20 @@ import UIKit
 
 class AdminProjectsViewController: UIViewController, UICollectionViewDelegate, UICollectionViewDataSource {
     
-    let nombres = ["Ricardo", "Jorge", "Diana"]
-    let horarios = ["5pm - 7pm", "2pm - 6pm", "2pm - 3pm"]
+    let images = ["alimentos", "ropa", "medicamentos", "emergencia"]
+    let titles = ["Banco de alimentos", "Banco de Ropa", "Banco de Medicamentos", "Campañas de Emergencia"]
+    let location = ["📍San Pedro Garza Garcia, N.L.","📍San Pedro Garza Garcia, N.L.", "📍San Pedro Garza Garcia, N.L.", "📍San Pedro Garza Garcia, N.L."]
     
     func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
-        return nombres.count
+        return images.count
     }
     
     func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
         
-        let cell = collectionView.dequeueReusableCell(withReuseIdentifier: "postUno", for: indexPath) as! Post1
-        cell.nombre.text = nombres[indexPath.row]
-        cell.horario.text = horarios[indexPath.row]
+        let cell = collectionView.dequeueReusableCell(withReuseIdentifier: "post", for: indexPath) as! Post
+        cell.image.image = UIImage(named: images[indexPath.row])
+        cell.title.text = titles[indexPath.row]
+        cell.location.text = location[indexPath.row]
         
         return cell
     }
@@ -34,15 +36,14 @@ class AdminProjectsViewController: UIViewController, UICollectionViewDelegate, U
 }
 
 class Post1: UICollectionViewCell{
-    @IBOutlet weak var nombre: UILabel!
-    @IBOutlet weak var horario: UILabel!
     @IBOutlet weak var background: UIView!
+    @IBOutlet weak var image: UIImageView!
+    @IBOutlet weak var title: UILabel!
+    @IBOutlet weak var location: UILabel!
     
-   
-    
-    
-    override func awakeFromNib(){
-        
-        background.layer.cornerRadius = 12
-    }
 }
+    
+    
+    //override func awakeFromNib(){
+      //  background.layer.cornerRadius = 12
+    //}
