@@ -16,8 +16,8 @@ class ProfileViewController: UIViewController {
     
     
     // Declaracion de valores iniciales
-    let valoresTabla = [2.0, 3.0, 1.0, 2.0, 3.0, 5.0]
-    let etiquetasFechas = ["Ene", "Feb", "Mar", "Abr", "May", "Jun"]
+    let valoresTabla = [2.0, 3.0, 1.0, 2.0, 3.0, 5.0, 2.0, 3.0, 1.0, 2.0, 3.0, 5.0]
+    let etiquetasFechas = ["Ene", "Feb", "Mar", "Abr", "May", "Jun", "Jul", "Ago", "Sep", "Oct", "Nov", "Dic"]
     
     override func viewDidLoad() {
         super.viewDidLoad()
