@@ -782,7 +782,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="kOt-KA-yxc">
-                                <rect key="frame" x="15" y="154" width="384" height="698"/>
+                                <rect key="frame" x="15" y="154" width="384" height="649"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Resumen de horas por proyecto" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="o1S-DI-waU">
                                         <rect key="frame" x="18" y="139" width="349" height="27"/>
@@ -1139,61 +1139,143 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="DFl-lv-fNy">
-                                <rect key="frame" x="20" y="144" width="374" height="309"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="Cc3-JT-eWe">
+                                <rect key="frame" x="0.0" y="92" width="414" height="804"/>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
-                                <collectionViewFlowLayout key="collectionViewLayout" automaticEstimatedItemSize="YES" minimumLineSpacing="10" minimumInteritemSpacing="10" id="clW-Ir-bjK">
-                                    <size key="itemSize" width="374" height="227"/>
+                                <collectionViewFlowLayout key="collectionViewLayout" automaticEstimatedItemSize="YES" minimumLineSpacing="10" minimumInteritemSpacing="10" id="18t-Ut-gTj">
+                                    <size key="itemSize" width="413" height="395"/>
                                     <size key="headerReferenceSize" width="0.0" height="0.0"/>
                                     <size key="footerReferenceSize" width="0.0" height="0.0"/>
                                     <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
                                 </collectionViewFlowLayout>
-                                <view key="backgroundView" contentMode="scaleToFill" id="BYB-tk-pa2">
-                                    <rect key="frame" x="0.0" y="0.0" width="374" height="309"/>
-                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                    <subviews>
-                                        <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" image="alimentos" translatesAutoresizingMaskIntoConstraints="NO" id="WiB-0W-YqI">
-                                            <rect key="frame" x="0.0" y="0.0" width="374" height="310"/>
-                                        </imageView>
-                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Banco de alimentos" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ZS0-hh-vBI">
-                                            <rect key="frame" x="8" y="8" width="266" height="36"/>
-                                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                            <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="30"/>
-                                            <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                            <nil key="highlightedColor"/>
-                                        </label>
-                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="📍San Pedro Garza Garcia, N.L." textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="EB8-hi-2Ae">
-                                            <rect key="frame" x="8" y="52" width="244" height="21"/>
-                                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                            <color key="backgroundColor" red="0.0" green="0.61176470588235299" blue="0.65098039215686276" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
-                                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                            <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                            <nil key="highlightedColor"/>
-                                        </label>
-                                    </subviews>
-                                    <color key="backgroundColor" systemColor="systemGray2Color"/>
-                                    <constraints>
-                                        <constraint firstItem="WiB-0W-YqI" firstAttribute="top" secondItem="BYB-tk-pa2" secondAttribute="top" id="VRi-iY-Rh6"/>
-                                        <constraint firstAttribute="bottom" secondItem="WiB-0W-YqI" secondAttribute="bottom" constant="-1" id="u4Z-bb-FYD"/>
-                                        <constraint firstAttribute="bottom" secondItem="WiB-0W-YqI" secondAttribute="bottom" constant="-1" id="uPd-ec-ALB"/>
-                                    </constraints>
-                                </view>
-                                <cells/>
-                                <connections>
-                                    <outlet property="dataSource" destination="ajS-G3-BRs" id="3s0-Wa-hwP"/>
-                                    <outlet property="delegate" destination="ajS-G3-BRs" id="Tmw-SU-jmU"/>
-                                </connections>
+                                <cells>
+                                    <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="jOr-wX-Ff1">
+                                        <rect key="frame" x="0.5" y="0.0" width="413" height="395"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <collectionViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" id="9WT-Zk-cVp">
+                                            <rect key="frame" x="0.0" y="0.0" width="413" height="395"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="DFl-lv-fNy">
+                                                    <rect key="frame" x="20" y="8" width="373" height="379"/>
+                                                    <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                                    <constraints>
+                                                        <constraint firstAttribute="width" constant="374" id="Fx6-js-zb6"/>
+                                                        <constraint firstAttribute="height" constant="309" id="gUR-ov-3xM"/>
+                                                    </constraints>
+                                                    <collectionViewFlowLayout key="collectionViewLayout" automaticEstimatedItemSize="YES" minimumLineSpacing="10" minimumInteritemSpacing="10" id="clW-Ir-bjK">
+                                                        <size key="itemSize" width="374" height="227"/>
+                                                        <size key="headerReferenceSize" width="0.0" height="0.0"/>
+                                                        <size key="footerReferenceSize" width="0.0" height="0.0"/>
+                                                        <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
+                                                    </collectionViewFlowLayout>
+                                                    <view key="backgroundView" contentMode="scaleToFill" id="BYB-tk-pa2">
+                                                        <rect key="frame" x="0.0" y="0.0" width="373" height="379"/>
+                                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                        <subviews>
+                                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="alimentos" translatesAutoresizingMaskIntoConstraints="NO" id="WiB-0W-YqI">
+                                                                <rect key="frame" x="0.0" y="0.0" width="373" height="379"/>
+                                                                <constraints>
+                                                                    <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="371" id="9Zz-PV-txT"/>
+                                                                    <constraint firstAttribute="height" constant="363" id="ALu-rR-dFr"/>
+                                                                    <constraint firstAttribute="width" constant="365" id="iOM-27-d1e"/>
+                                                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="373" id="rzl-Kj-SJi"/>
+                                                                </constraints>
+                                                            </imageView>
+                                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Banco de alimentos" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ZS0-hh-vBI">
+                                                                <rect key="frame" x="8" y="8" width="266" height="36"/>
+                                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                                <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="30"/>
+                                                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                                <nil key="highlightedColor"/>
+                                                            </label>
+                                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="📍San Pedro Garza Garcia, N.L." textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="EB8-hi-2Ae">
+                                                                <rect key="frame" x="8" y="52" width="244" height="21"/>
+                                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                                <color key="backgroundColor" red="0.0" green="0.61176470588235299" blue="0.65098039215686276" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
+                                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                                <nil key="highlightedColor"/>
+                                                            </label>
+                                                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="m6h-gm-V0D">
+                                                                <rect key="frame" x="279" y="313" width="52" height="50"/>
+                                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                                <state key="normal" title="Button"/>
+                                                                <buttonConfiguration key="configuration" style="filled">
+                                                                    <backgroundConfiguration key="background" image="celIcon"/>
+                                                                </buttonConfiguration>
+                                                                <connections>
+                                                                    <segue destination="yNm-Z2-3nP" kind="presentation" id="oYg-r4-gWM"/>
+                                                                </connections>
+                                                            </button>
+                                                        </subviews>
+                                                        <color key="backgroundColor" systemColor="systemGray2Color"/>
+                                                        <constraints>
+                                                            <constraint firstAttribute="bottom" secondItem="WiB-0W-YqI" secondAttribute="bottom" id="4ut-P1-Ybu"/>
+                                                            <constraint firstItem="WiB-0W-YqI" firstAttribute="top" secondItem="BYB-tk-pa2" secondAttribute="top" id="7Nm-M3-94x"/>
+                                                            <constraint firstAttribute="trailing" secondItem="WiB-0W-YqI" secondAttribute="trailing" id="GKf-Sc-KAA"/>
+                                                            <constraint firstAttribute="bottom" secondItem="WiB-0W-YqI" secondAttribute="bottom" id="HwI-vy-28K"/>
+                                                            <constraint firstItem="WiB-0W-YqI" firstAttribute="leading" secondItem="BYB-tk-pa2" secondAttribute="leading" id="ISz-wv-fSP"/>
+                                                            <constraint firstAttribute="trailing" secondItem="WiB-0W-YqI" secondAttribute="trailing" id="Jca-tl-Qrs"/>
+                                                            <constraint firstItem="WiB-0W-YqI" firstAttribute="leading" secondItem="BYB-tk-pa2" secondAttribute="leading" id="Oxm-JW-SJX"/>
+                                                            <constraint firstAttribute="trailing" secondItem="WiB-0W-YqI" secondAttribute="trailing" id="Pqp-lQ-oDl"/>
+                                                            <constraint firstItem="WiB-0W-YqI" firstAttribute="top" secondItem="BYB-tk-pa2" secondAttribute="top" constant="8" id="S6o-RF-PDO"/>
+                                                            <constraint firstItem="WiB-0W-YqI" firstAttribute="top" secondItem="BYB-tk-pa2" secondAttribute="top" id="Ufw-HM-naC"/>
+                                                            <constraint firstItem="WiB-0W-YqI" firstAttribute="leading" secondItem="BYB-tk-pa2" secondAttribute="leading" id="UxW-Iq-vBA"/>
+                                                            <constraint firstAttribute="bottom" secondItem="WiB-0W-YqI" secondAttribute="bottom" constant="61" id="aQT-Jc-cqN"/>
+                                                            <constraint firstAttribute="bottom" secondItem="WiB-0W-YqI" secondAttribute="bottom" id="fvq-8K-zey"/>
+                                                            <constraint firstAttribute="bottom" secondItem="WiB-0W-YqI" secondAttribute="bottom" constant="61" id="tig-PE-S5p"/>
+                                                            <constraint firstItem="WiB-0W-YqI" firstAttribute="top" secondItem="BYB-tk-pa2" secondAttribute="top" id="yc7-Im-ocX"/>
+                                                        </constraints>
+                                                    </view>
+                                                    <cells/>
+                                                    <connections>
+                                                        <outlet property="dataSource" destination="ajS-G3-BRs" id="3s0-Wa-hwP"/>
+                                                        <outlet property="delegate" destination="ajS-G3-BRs" id="Tmw-SU-jmU"/>
+                                                    </connections>
+                                                </collectionView>
+                                            </subviews>
+                                            <constraints>
+                                                <constraint firstItem="DFl-lv-fNy" firstAttribute="top" secondItem="9WT-Zk-cVp" secondAttribute="top" constant="8" id="Wc8-1u-Lh1"/>
+                                                <constraint firstItem="DFl-lv-fNy" firstAttribute="leading" secondItem="9WT-Zk-cVp" secondAttribute="leading" constant="20" id="nn0-Tq-LUw"/>
+                                                <constraint firstAttribute="trailing" secondItem="DFl-lv-fNy" secondAttribute="trailing" constant="20" id="tcs-r0-6uq"/>
+                                                <constraint firstAttribute="bottom" secondItem="DFl-lv-fNy" secondAttribute="bottom" constant="8" id="vCV-Rv-vIj"/>
+                                            </constraints>
+                                        </collectionViewCellContentView>
+                                        <size key="customSize" width="413" height="395"/>
+                                    </collectionViewCell>
+                                </cells>
                             </collectionView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="4Gk-5K-ddq"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="Cc3-JT-eWe" firstAttribute="leading" secondItem="4Gk-5K-ddq" secondAttribute="leading" id="Bmq-y2-exj"/>
+                            <constraint firstItem="Cc3-JT-eWe" firstAttribute="top" secondItem="4Gk-5K-ddq" secondAttribute="top" id="FVh-sr-kDz"/>
+                            <constraint firstAttribute="bottom" secondItem="Cc3-JT-eWe" secondAttribute="bottom" id="eLj-5m-eaL"/>
+                            <constraint firstItem="4Gk-5K-ddq" firstAttribute="trailing" secondItem="Cc3-JT-eWe" secondAttribute="trailing" id="m1x-nC-fO5"/>
+                        </constraints>
                     </view>
                     <navigationItem key="navigationItem" title="Proyectos asignados" id="AEF-0Z-Rmh"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="UVa-ik-cLR" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="2673.913043478261" y="1435.7142857142856"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="XyC-Pj-ZKy">
+            <objects>
+                <viewController id="yNm-Z2-3nP" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="fSK-xR-f92">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="838"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <viewLayoutGuide key="safeArea" id="yc0-jG-eQb"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="cL0-2p-mI5" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3336" y="1436"/>
         </scene>
         <!--Reservaciones-->
         <scene sceneID="6Mu-EP-kEd">
@@ -1387,9 +1469,8 @@
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="LQi-Ut-k2S"/>
-        <segue reference="h5X-IH-eBB"/>
-        <segue reference="KNq-VD-3CY"/>
+        <segue reference="9FM-0I-Zjy"/>
+        <segue reference="7h3-Ca-ZT1"/>
         <segue reference="DPw-q2-uH3"/>
     </inferredMetricsTieBreakers>
     <resources>
@@ -1400,6 +1481,7 @@
         <image name="Travel Picture" width="376" height="564"/>
         <image name="alimentos" width="700" height="525"/>
         <image name="calendar.badge.clock" catalog="system" width="128" height="108"/>
+        <image name="celIcon" width="223" height="327"/>
         <image name="checklist" catalog="system" width="128" height="107"/>
         <image name="checkmark.circle.fill" catalog="system" width="128" height="123"/>
         <image name="chevron.backward" catalog="system" width="97" height="128"/>

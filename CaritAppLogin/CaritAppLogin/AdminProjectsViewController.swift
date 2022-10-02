@@ -41,6 +41,11 @@ class Post1: UICollectionViewCell{
     @IBOutlet weak var title: UILabel!
     @IBOutlet weak var location: UILabel!
     
+    override func awakeFromNib() {
+        background.layer.cornerRadius = 12
+        image.layer.cornerRadius = 12
+    }
+    
 }
     
     
