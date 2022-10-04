@@ -37,12 +37,13 @@ class Post1: UICollectionViewCell{
     @IBOutlet weak var nombre: UILabel!
     @IBOutlet weak var horario: UILabel!
     @IBOutlet weak var background: UIView!
+    @IBOutlet weak var botonConf: UIButton!
+    @IBOutlet weak var botonDec: UIButton!
     
    
     
     
     override func awakeFromNib(){
-        
         background.layer.cornerRadius = 12
     }
 }

@@ -1134,7 +1134,7 @@
             </objects>
             <point key="canvasLocation" x="854" y="726"/>
         </scene>
-        <!--Proyectos asignados-->
+        <!--Proyectos Asignados-->
         <scene sceneID="Fw5-yd-oqn">
             <objects>
                 <viewController id="ajS-G3-BRs" customClass="AdminProjectsViewController" customModule="CaritAppLogin" customModuleProvider="target" sceneMemberID="viewController">
@@ -1142,94 +1142,119 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="DFl-lv-fNy">
-                                <rect key="frame" x="20" y="109" width="374" height="755"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="DFl-lv-fNy">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                 <collectionViewFlowLayout key="collectionViewLayout" automaticEstimatedItemSize="YES" minimumLineSpacing="10" minimumInteritemSpacing="10" id="clW-Ir-bjK">
-                                    <size key="itemSize" width="374" height="227"/>
+                                    <size key="itemSize" width="374" height="239"/>
                                     <size key="headerReferenceSize" width="0.0" height="0.0"/>
                                     <size key="footerReferenceSize" width="0.0" height="0.0"/>
                                     <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
                                 </collectionViewFlowLayout>
                                 <cells>
                                     <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="postUno" id="4jo-jl-Y5V" customClass="Post1" customModule="CaritAppLogin" customModuleProvider="target">
-                                        <rect key="frame" x="0.0" y="0.0" width="374" height="227"/>
+                                        <rect key="frame" x="20" y="0.0" width="374" height="239"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <collectionViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="DvJ-U4-cQY">
-                                            <rect key="frame" x="0.0" y="0.0" width="374" height="227"/>
+                                            <rect key="frame" x="0.0" y="0.0" width="374" height="239"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="2gz-01-eV1">
-                                                    <rect key="frame" x="12" y="12" width="350" height="203"/>
+                                                    <rect key="frame" x="12" y="8" width="342" height="219"/>
                                                     <subviews>
                                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Nombre: " textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="mnz-ud-X1L">
                                                             <rect key="frame" x="26" y="39" width="96" height="21"/>
                                                             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                             <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="22"/>
-                                                            <nil key="textColor"/>
+                                                            <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                             <nil key="highlightedColor"/>
                                                         </label>
                                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Horario: " textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Voc-uB-y98">
                                                             <rect key="frame" x="26" y="88" width="96" height="21"/>
                                                             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                             <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="22"/>
-                                                            <nil key="textColor"/>
+                                                            <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                             <nil key="highlightedColor"/>
                                                         </label>
                                                         <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="lDr-6H-mNy">
                                                             <rect key="frame" x="26" y="156" width="116" height="31"/>
                                                             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                            <color key="tintColor" systemColor="systemGreenColor"/>
+                                                            <color key="tintColor" name="AccentColor"/>
                                                             <state key="normal" title="Button"/>
-                                                            <buttonConfiguration key="configuration" style="filled" title="Confirmar"/>
+                                                            <buttonConfiguration key="configuration" style="filled" title="Confirmar">
+                                                                <color key="baseBackgroundColor" systemColor="systemGreenColor"/>
+                                                            </buttonConfiguration>
                                                         </button>
                                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="InW-ee-GXW">
                                                             <rect key="frame" x="158" y="39" width="166" height="21"/>
                                                             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                             <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                                            <nil key="textColor"/>
+                                                            <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                             <nil key="highlightedColor"/>
                                                         </label>
                                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="D1h-QZ-xt3">
                                                             <rect key="frame" x="158" y="88" width="166" height="21"/>
                                                             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                             <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                                            <nil key="textColor"/>
+                                                            <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                             <nil key="highlightedColor"/>
                                                         </label>
                                                         <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="VFK-lq-9na">
                                                             <rect key="frame" x="208" y="156" width="116" height="31"/>
                                                             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                            <color key="tintColor" systemColor="systemRedColor"/>
+                                                            <color key="tintColor" name="AccentColor"/>
                                                             <state key="normal" title="Button"/>
-                                                            <buttonConfiguration key="configuration" style="filled" title="Declinar"/>
+                                                            <buttonConfiguration key="configuration" style="filled" title="Declinar">
+                                                                <color key="baseBackgroundColor" systemColor="systemRedColor"/>
+                                                            </buttonConfiguration>
                                                         </button>
                                                     </subviews>
-                                                    <color key="backgroundColor" red="0.36073376757029574" green="0.76859849691390991" blue="0.75024856890165026" alpha="0.1099092597203539" colorSpace="custom" customColorSpace="displayP3"/>
+                                                    <color key="backgroundColor" systemColor="tertiarySystemGroupedBackgroundColor"/>
+                                                    <color key="tintColor" systemColor="labelColor"/>
+                                                    <constraints>
+                                                        <constraint firstAttribute="width" constant="354" id="LjD-n2-LNP"/>
+                                                        <constraint firstAttribute="height" constant="219" id="tqJ-yV-IJ8"/>
+                                                    </constraints>
                                                 </view>
                                             </subviews>
                                             <constraints>
                                                 <constraint firstItem="2gz-01-eV1" firstAttribute="top" secondItem="DvJ-U4-cQY" secondAttribute="top" constant="12" id="OK7-vd-G5j"/>
+                                                <constraint firstAttribute="bottom" secondItem="2gz-01-eV1" secondAttribute="bottom" constant="8" id="QQg-7s-RAS"/>
                                                 <constraint firstAttribute="trailing" secondItem="2gz-01-eV1" secondAttribute="trailing" constant="12" id="Rz1-eT-1ZG"/>
                                                 <constraint firstAttribute="bottom" secondItem="2gz-01-eV1" secondAttribute="bottom" constant="12" id="WwK-Ac-e4C"/>
+                                                <constraint firstItem="2gz-01-eV1" firstAttribute="leading" secondItem="DvJ-U4-cQY" secondAttribute="leading" constant="20" id="ZwJ-XB-MIb"/>
+                                                <constraint firstItem="2gz-01-eV1" firstAttribute="top" secondItem="DvJ-U4-cQY" secondAttribute="top" constant="8" id="kky-8i-Say"/>
                                                 <constraint firstItem="2gz-01-eV1" firstAttribute="leading" secondItem="DvJ-U4-cQY" secondAttribute="leading" constant="12" id="o0b-bL-V7H"/>
+                                                <constraint firstAttribute="trailing" secondItem="2gz-01-eV1" secondAttribute="trailing" constant="20" id="s7a-n1-7pl"/>
                                             </constraints>
                                         </collectionViewCellContentView>
-                                        <size key="customSize" width="374" height="227"/>
+                                        <color key="tintColor" red="0.51772966229999995" green="0.67901140989999997" blue="0.66271482500000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                        <size key="customSize" width="374" height="239"/>
                                         <connections>
                                             <outlet property="background" destination="2gz-01-eV1" id="hq3-YQ-TRv"/>
+                                            <outlet property="botonConf" destination="lDr-6H-mNy" id="sWd-rF-9rh"/>
+                                            <outlet property="botonDec" destination="VFK-lq-9na" id="Nsq-zV-128"/>
                                             <outlet property="horario" destination="D1h-QZ-xt3" id="D5q-EQ-I8m"/>
                                             <outlet property="nombre" destination="InW-ee-GXW" id="y5X-OG-cPA"/>
                                         </connections>
                                     </collectionViewCell>
                                 </cells>
+                                <connections>
+                                    <outlet property="dataSource" destination="ajS-G3-BRs" id="qGU-hA-W9Y"/>
+                                    <outlet property="delegate" destination="ajS-G3-BRs" id="44l-ef-alb"/>
+                                </connections>
                             </collectionView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="4Gk-5K-ddq"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="DFl-lv-fNy" firstAttribute="top" secondItem="aeH-JU-47w" secondAttribute="top" id="4Yu-5l-WTU"/>
+                            <constraint firstAttribute="bottom" secondItem="DFl-lv-fNy" secondAttribute="bottom" id="9p7-fY-Cxj"/>
+                            <constraint firstItem="DFl-lv-fNy" firstAttribute="trailing" secondItem="4Gk-5K-ddq" secondAttribute="trailing" id="mUr-LS-oxZ"/>
+                            <constraint firstItem="DFl-lv-fNy" firstAttribute="leading" secondItem="4Gk-5K-ddq" secondAttribute="leading" id="yb5-bK-ui8"/>
+                        </constraints>
                     </view>
-                    <navigationItem key="navigationItem" title="Proyectos asignados" id="AEF-0Z-Rmh"/>
+                    <navigationItem key="navigationItem" title="Proyectos Asignados" id="AEF-0Z-Rmh"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="UVa-ik-cLR" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
@@ -1452,6 +1477,9 @@
         <namedColor name="AccentColor">
             <color red="0.0" green="0.46000000000000002" blue="0.89000000000000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </namedColor>
+        <systemColor name="labelColor">
+            <color white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
         <systemColor name="linkColor">
             <color red="0.0" green="0.47843137254901963" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
@@ -1466,6 +1494,9 @@
         </systemColor>
         <systemColor name="systemRedColor">
             <color red="1" green="0.23137254901960785" blue="0.18823529411764706" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+        <systemColor name="tertiarySystemGroupedBackgroundColor">
+            <color red="0.94901960784313721" green="0.94901960784313721" blue="0.96862745098039216" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
     </resources>
 </document>
